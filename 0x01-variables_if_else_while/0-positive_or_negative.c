@@ -4,8 +4,10 @@
 
 /**
  * main - Entry Point
- * Return always (0) for success
+ * describe the numbers n
+ * Return: always (0) for success
  */
+
 int main(void)
 {
 	int n;
