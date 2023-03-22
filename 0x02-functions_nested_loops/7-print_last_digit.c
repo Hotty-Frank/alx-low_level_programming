@@ -6,12 +6,9 @@
  */
 int print_last_digit(int j)
 {
-	if (j > -10 && j < 10)
-	{
-		_putchar(j + '0');
-	}
-	if (j < -9 && j > 9)
-	{
-		return (j % 10);
-	}
+	j = j % 10;
+	if (j < 0)
+		j = -j;
+	_putchar(j % 10 + '0');
+	return (j);
 }
