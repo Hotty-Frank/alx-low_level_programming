@@ -9,9 +9,9 @@ void print_square(int size)
 	int j;
 	int i;
 
-	if (size < 0 && size != 00)
+	if (size <= 00)
 	{
-		putchar('\n');
+		_putchar('\n');
 	}
 	else
 	{
@@ -19,9 +19,9 @@ void print_square(int size)
 		{
 			for (i = 1; i <= size; i++)
 			{
-				putchar('#');
+				_putchar('#');
 			}
-			putchar('\n');
+			_putchar('\n');
 		}
 	}
 }
