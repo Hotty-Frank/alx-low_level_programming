@@ -2,7 +2,7 @@
 #include <string.h>
 /**
  * _strcmp - Compares two strings.
- * @si: Ist string parameter.
+ * @s1: Ist string parameter.
  * @s2: ssecond string.
  * Return: pointer to resultant.
  */
