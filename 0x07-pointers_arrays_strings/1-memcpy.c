@@ -3,7 +3,7 @@
 /**
  * _memcpy - copies bytes from dest to src.
  * @dest: desstinatin parameter.
- * @@src: source psrsmwters.
+ * @src: source psrsmwters.
  * @n: is transferrable limit in bytes.
  * Return: pointer to dest.
  */
