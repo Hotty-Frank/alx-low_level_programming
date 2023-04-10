@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 /**
  * main - program adds positive numbers.
  * @argc: arguement count.
@@ -9,27 +10,26 @@
 int main(int argc, char *argv[])
 {
 	int i;
+	int k;
 	int result;
 
 	if (argc == 1)
 	{
-		printf("%d\n", argc - 1);
+		printf("0\n");
+		return (0);
 	}
 	for (i = 1; i < argc; i++)
 	{
-		if (*(argv[i] != int))
+		for (k = 0; argv[i][k]; k++)
 		{
-			printf("Error\n");
+			if (!isdigit(argv[i][k]))
+			{
+				printf("Error\n");
+				return (1);
+			}
 		}
-		return (1);
+		result += atoi(argv[i]);
 	}
-	for (argc = 1; argc > 1; argc++)
-	{
-		result += atoi(argv[argc - 1]);
-		printf("%d\n", result);
-	}
+	printf("%d\n", result);
 	return (0);
 }
-
-
-
