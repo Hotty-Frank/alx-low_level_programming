@@ -25,9 +25,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	lend = strlen(s1);
 	lens = strlen(s2);
-	if (lens > n)
+	if (n > lens)
 	{
-		lens = n;
+		n = lens;
 	}
 	ptr = malloc(lend + n);
 	if (ptr == NULL)
