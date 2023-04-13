@@ -25,11 +25,11 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	lend = strlen(s1);
 	lens = strlen(s2);
-	if (n > lens && n == lens)
+	if (n > lens)
 	{
 		n = lens;
 	}
-	ptr = malloc(lend + n);
+	ptr = malloc(lend + n + 1);
 	if (ptr == NULL)
 	{
 		return (NULL);
