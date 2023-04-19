@@ -1,6 +1,6 @@
 #include "function_pointers.h"
 /**
-* int_index( - serches for an int.
+* int_index - serches for an int.
 * @array: function parameter array.
 * @size: size of array.
 * @cmp: function pointer.
