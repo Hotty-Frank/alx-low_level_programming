@@ -5,11 +5,11 @@
  * main - main function prints opocodes of it own main function..
  * @argc: arguments count.
  * @argv: argument vector
- * Return: Always 0.
+ * Return: 0.
  */
 int main(int argc, char *argv[])
 {
-	int byts, k;
+	int k, byts;
 	char *ar;
 
 	if (argc != 2)
