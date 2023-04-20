@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- * main - prints its opcodes
- * @argc: arguements count.
- * @argv: arguement vector
- * Return: Always zero.
+ * main - main function prints pocodes
+ * @argc: arguments count.
+ * @argv: argument vector
+ * Return: Always 0.
  */
 int main(int argc, char *argv[])
 {
