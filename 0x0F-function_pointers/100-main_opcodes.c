@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - main function prints pocodes
+ * main - main function prints opocodes of it own main function..
  * @argc: arguments count.
  * @argv: argument vector
  * Return: Always 0.
