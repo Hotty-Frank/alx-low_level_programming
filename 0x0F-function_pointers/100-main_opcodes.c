@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - body functio prints opcodes
+ * main - prints its opcodes
  * @argc: arguements count.
  * @argv: arguement vector
  * Return: Always zero.
