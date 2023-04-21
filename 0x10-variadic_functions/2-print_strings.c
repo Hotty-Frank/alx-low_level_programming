@@ -3,9 +3,9 @@
 #include <stdio.h>
 /**
  * print_strings - prints strings followed by a newline.
- * @separator: constsnt string to be printed b2n strings.
+ * @separator: string to be printed between strings.
  * @n: number of strings passed to function.
- * Return: nothing.
+ * Return: Always 0.
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
