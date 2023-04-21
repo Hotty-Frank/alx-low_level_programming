@@ -8,8 +8,8 @@
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-	va_list y;
 	unsigned int z;
+	va_list y;
 
 	va_start(y, n);
 
